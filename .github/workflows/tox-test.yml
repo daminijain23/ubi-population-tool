@@ -105,6 +105,4 @@ jobs:
       - name: Install Tox
         run: pip install tox
       - name: Run Tox
-        run: |
-          tox -e docs
-          scripts/push-docs
+        run: tox -e docs
